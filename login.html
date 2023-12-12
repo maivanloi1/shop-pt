@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.5.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="icon" href="./assets/img/logo.png">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="grid">
+          <!-- Navbar -->
+          <nav class="header__navbar">
+              <ul class="header__navbar-list">
+                  <li class="header__navbar-item">
+                    Vào cửa hàng trên ứng dụng F8-Shop
+                    <div class="header__qr">
+                      <img src="./assets/img/qr_code.png" alt="QR Code" class="header__qr-img">
+                      <div class="header__qr-apps">
+                        <a href="#" class="header__qr-link">
+                          <img src="./assets/img/google_play.png" alt="Google Play" class="header__qr-download-img">
+                        </a>
+                        <a href="#" class="header__qr-link">
+                          <img src="./assets/img/apple_store.png" alt="App Store" class="header__qr-download-img">
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="header__navbar-item header__navbar-item--separate">
+                    <span class="header__navbar-title--no-pointer">Kết nối</span>
+                    <a href="https://www.facebook.com/phuoctien.0909" class="header__navbar-icon-link">
+                      <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                    </a>
+  
+                    <a href="https://www.instagram.com/phtienthink" class="header__navbar-icon-link">
+                      <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                    </a>
+  
+                  </li>
+              </ul>
+              <ul class="header__navbar-list">
+                <li class="header__navbar-item header__navbar-item-has-notify">
+                  <a href="#" class="header__navbar-item-link">       
+                      <i class="header__navbar-icon far fa-bell" ></i>
+                    Thông báo
+                  </a>
+                  <div class="header__notify">
+                      <div class="header__notify-header">
+                        <h3>Thông báo mới nhận</h3>
+                      </div>
+                      <ul class="header__notify-list">
+                        <li class="header__notify-item header__notify-item--viewed">
+                          <a href="#" class="header__notify-link">
+                            <img src="https://media3.scdn.vn/img4/2022/11_21/6THa1uLypK72uGlqPaxq_simg_de2fe0_250x250_maxb.png" alt="" class="header__notify-img">
+                            <div class="header__notify-info">
+                              <span class="header__notify-name">Mô hình CaĐíc 1:1</span>
+                              <span class="header__notify-description">Mô Hình Dragon Ball - Hợp Thể Super Saiyan Vegeta & Son Goku Thành Gogeta</span>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="header__notify-item header__notify-item--viewed">
+                          <a href="#" class="header__notify-link">
+                            <img src="https://takishop.vn/wp-content/uploads/2020/11/fig325-super-saiyan-son-gohan-ros-1.jpg" alt="" class="header__notify-img">
+                            <div class="header__notify-info">
+                              <span class="header__notify-name">Mô hình Frieza</span>
+                              <span class="header__notify-description">Mô hình Dragonball Frieza ngồi 15cm FG159</span>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="header__notify-item header__notify-item--viewed">
+                          <a href="#" class="header__notify-link">
+                            <img src="https://vn-live-01.slatic.net/p/5cf53c7397c89fe2d9ac7abc8226ca73.jpg" alt="" class="header__notify-img">
+                            <div class="header__notify-info">
+                              <span class="header__notify-name">Mô hình Vegeta</span>
+                              <span class="header__notify-description">Mô hình nhân vật Dragonball Vegeta super saiyan</span>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="header__notify-item">
+                          <a href="#" class="header__notify-link">
+                            <img src="https://product.hstatic.net/1000387428/product/o1cn016izvph2dm6yu3zdda___80578594-02_534635b6b061480c912c9ef211ed71f3_master.jpg" alt="" class="header__notify-img">
+                            <div class="header__notify-info">
+                              <span class="header__notify-name">Mô hình Vegeta</span>
+                              <span class="header__notify-description">Mô hình nhân vật Dragonball Vegeta super saiyan</span>
+                            </div>
+                          </a>
+                        </li>
+                      </ul>
+                      <footer class="header__notify-footer">
+                        <a href="#" class="header__notify-footer-btn">Xem tất cả</a>
+                      </footer>
+                  </div>
+                </li>
+                <li class="header__navbar-item">
+                  <a href="https://help.shopee.vn/portal" class="header__navbar-item-link">
+                      <i class="header__navbar-icon fa-regular fa-circle-question"></i>
+                    Trợ giúp
+                  </a>
+                </li>
+                <li class="header__navbar-item header__navbar-item--strong js-register"><a href="./register.html">Đăng ký</a></li>
+                <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate js-login"><a href="./login.html">Đăng nhập</a></li>
+              </ul>
+          </nav>
+  
+          <!-- Search -->
+          <div class="header-with-search">
+            <div class="header__logo">
+              <a href="/" class="header__logo-link">
+                <img src="./assets/img/logo.png" alt="" class="header__logo-img">
+              </a>
+            </div>
+  
+            <div class="header__search">
+              <div class="header__search-input-wrap">
+                <input type="text" class="header__search-input" placeholder="Tìm kiếm">
+                <div class="header__search-history">
+                    <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                    <ul class="header__search-history-list">
+                        <li class="header__search-history-item">
+                          <a href="#">Mô hình Cađíc</a>
+                        </li>
+                        <li class="header__search-history-item">
+                          <a href="#">Mô hình Oto</a>
+                        </li>
+                        <li class="header__search-history-item">
+                          <a href="#">Mô hình Vegeta</a>
+                        </li>
+                    </ul>
+                </div>
+              </div>
+              <div class="header__search-select">
+                  <span class="header__search-select-label">Trong Shop</span>
+                  <i class="header__search-select-icon fa-solid fa-chevron-down"></i>
+  
+                  <ul class="header__search-option">
+                    <li class="header__search-option-item header__search-option-item--active">
+                      <span>Trong Shop</span>
+                      <i class="fa-solid fa-check"></i>
+                    </li>
+                    <li class="header__search-option-item">
+                      <span>Ngoài Shop</span>
+                      <i class="fa-solid fa-check"></i>
+                    </li>
+                  </ul>
+              </div>
+              <button class="header__search-btn">
+                <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+      
+            <div class="header__cart">
+              <div class="header__cart-wrap">
+                <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                <span class="header__cart-notice">4</span>
+                <!-- No Cart: header__cart-list--no-cart -->
+              <div class="header__cart-list">
+                  <img src="./assets/img/no_cart.png" alt="" class="header__cart-no-cart-img">
+                  <span class="header__cart-no-cart-msg">Chưa có sản phẩm</span>
+  
+                  <!-- Has cart -->
+                  <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                  <ul class="header__cart-list-item">
+                    <!-- Cart Item -->
+                      <li class="header__cart-item">
+                        <img src="https://mohinhfigure.com/wp-content/uploads/2023/10/mo-hinh-naruto-minato-co-led-cao-22cm-nang-600gr-co-hop-mau-6.jpg" alt="" class="header__cart-item-img">
+                        <div class="header__cart-item-info">
+                          <div class="header__cart-item-head">
+                            <h5 class="header__cart-item-name">Mô Hình Naruto Minato</h5>
+                          <div class="header__cart-item-price-wrap">
+                            <span class="header__cart-item-price">3.500.000đ</span>
+                            <span class="header__cart-item-multiply">x</span>
+                            <span class="header__cart-item-quantity">2</span>
+                          </div>
+                          </div>
+                          <div class="header__cart-item-body">
+                            <span class="header__cart-item-description">Phân loại hàng: Nhựa PVC</span>
+                            <span class="header__cart-item-delete">Xoá</span>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="header__cart-item">
+                        <img src="https://mohinhfigure.com/wp-content/uploads/2021/08/mo-hinh-naruto-uchiha-sasuke-voi-khac-an-tren-vai-4-600x600.jpg" alt="" class="header__cart-item-img">
+                        <div class="header__cart-item-info">
+                          <div class="header__cart-item-head">
+                            <h5 class="header__cart-item-name">Mô Hình Sasuke</h5>
+                          <div class="header__cart-item-price-wrap">
+                            <span class="header__cart-item-price">2.500.000đ</span>
+                            <span class="header__cart-item-multiply">x</span>
+                            <span class="header__cart-item-quantity">4</span>
+                          </div>
+                          </div>
+                          <div class="header__cart-item-body">
+                            <span class="header__cart-item-description">Phân loại hàng: Nhựa PVC</span>
+                            <span class="header__cart-item-delete">Xoá</span>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="header__cart-item">
+                        <img src="https://mohinhfigure.com/wp-content/uploads/2021/08/mo-hinh-naruto-hatake-kakashi-mat-phai-sano-1.jpg" alt="" class="header__cart-item-img">
+                        <div class="header__cart-item-info">
+                          <div class="header__cart-item-head">
+                            <h5 class="header__cart-item-name">Mô Hình Kakashi</h5>
+                          <div class="header__cart-item-price-wrap">
+                            <span class="header__cart-item-price">5.500.000đ</span>
+                            <span class="header__cart-item-multiply">x</span>
+                            <span class="header__cart-item-quantity">3</span>
+                          </div>
+                          </div>
+                          <div class="header__cart-item-body">
+                            <span class="header__cart-item-description">Phân loại hàng: Nhựa PVC</span>
+                            <span class="header__cart-item-delete">Xoá</span>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="header__cart-item">
+                        <img src="https://lacdau.com/media/product/250-1792-8764ebfe1210f8a8aae5e7627d4d3b0e.jpeg" alt="" class="header__cart-item-img">
+                        <div class="header__cart-item-info">
+                          <div class="header__cart-item-head">
+                            <h5 class="header__cart-item-name">Mô Hình Obito Lục Đạo Mô Hình Obito Lục Đạo Mô Hình Obito Lục Đạo</h5>
+                          <div class="header__cart-item-price-wrap">
+                            <span class="header__cart-item-price">13.500.000đ</span>
+                            <span class="header__cart-item-multiply">x</span>
+                            <span class="header__cart-item-quantity">1</span>
+                          </div>
+                          </div>
+                          <div class="header__cart-item-body">
+                            <span class="header__cart-item-description">Phân loại hàng: Nhựa PVC</span>
+                            <span class="header__cart-item-delete">Xoá</span>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="header__cart-item">
+                        <img src="https://mohinhfigure.com/wp-content/uploads/2023/10/mo-hinh-naruto-minato-co-led-cao-22cm-nang-600gr-co-hop-mau-6.jpg" alt="" class="header__cart-item-img">
+                        <div class="header__cart-item-info">
+                          <div class="header__cart-item-head">
+                            <h5 class="header__cart-item-name">Mô Hình Naruto Minato</h5>
+                          <div class="header__cart-item-price-wrap">
+                            <span class="header__cart-item-price">3.500.000đ</span>
+                            <span class="header__cart-item-multiply">x</span>
+                            <span class="header__cart-item-quantity">2</span>
+                          </div>
+                          </div>
+                          <div class="header__cart-item-body">
+                            <span class="header__cart-item-description">Phân loại hàng: Nhựa PVC</span>
+                            <span class="header__cart-item-delete">Xoá</span>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="header__cart-item">
+                        <img src="https://mohinhfigure.com/wp-content/uploads/2021/08/mo-hinh-naruto-uchiha-sasuke-voi-khac-an-tren-vai-4-600x600.jpg" alt="" class="header__cart-item-img">
+                        <div class="header__cart-item-info">
+                          <div class="header__cart-item-head">
+                            <h5 class="header__cart-item-name">Mô Hình Sasuke</h5>
+                          <div class="header__cart-item-price-wrap">
+                            <span class="header__cart-item-price">2.500.000đ</span>
+                            <span class="header__cart-item-multiply">x</span>
+                            <span class="header__cart-item-quantity">4</span>
+                          </div>
+                          </div>
+                          <div class="header__cart-item-body">
+                            <span class="header__cart-item-description">Phân loại hàng: Nhựa PVC</span>
+                            <span class="header__cart-item-delete">Xoá</span>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="header__cart-item">
+                        <img src="https://mohinhfigure.com/wp-content/uploads/2021/08/mo-hinh-naruto-hatake-kakashi-mat-phai-sano-1.jpg" alt="" class="header__cart-item-img">
+                        <div class="header__cart-item-info">
+                          <div class="header__cart-item-head">
+                            <h5 class="header__cart-item-name">Mô Hình Kakashi</h5>
+                          <div class="header__cart-item-price-wrap">
+                            <span class="header__cart-item-price">5.500.000đ</span>
+                            <span class="header__cart-item-multiply">x</span>
+                            <span class="header__cart-item-quantity">3</span>
+                          </div>
+                          </div>
+                          <div class="header__cart-item-body">
+                            <span class="header__cart-item-description">Phân loại hàng: Nhựa PVC</span>
+                            <span class="header__cart-item-delete">Xoá</span>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="header__cart-item">
+                        <img src="https://lacdau.com/media/product/250-1792-8764ebfe1210f8a8aae5e7627d4d3b0e.jpeg" alt="" class="header__cart-item-img">
+                        <div class="header__cart-item-info">
+                          <div class="header__cart-item-head">
+                            <h5 class="header__cart-item-name">Mô Hình Obito Lục Đạo Mô Hình Obito Lục Đạo Mô Hình Obito Lục Đạo</h5>
+                          <div class="header__cart-item-price-wrap">
+                            <span class="header__cart-item-price">13.500.000đ</span>
+                            <span class="header__cart-item-multiply">x</span>
+                            <span class="header__cart-item-quantity">1</span>
+                          </div>
+                          </div>
+                          <div class="header__cart-item-body">
+                            <span class="header__cart-item-description">Phân loại hàng: Nhựa PVC</span>
+                            <span class="header__cart-item-delete">Xoá</span>
+                          </div>
+                        </div>
+                      </li>
+                  </ul>
+                  <button class="btn btn--primary header__cart-btn-view">Xem giỏ hàng</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        
+  
+      </header>
+    <!-- Modal -->
+    <div class="modaldn js-modal-login">
+        <div class="modal__overlay"></div>
+    
+        <div class="modal__body">
+  
+          <!-- Login Form -->
+          <div class="auth-form js-body-login">
+        
+            <div class="auth-form__container">
+              <div class="auth-form__header">
+                <h3 class="auth-form__heading">Đăng nhập</h3>
+                <span class="auth-form__switch-btn">Đăng ký</span>
+              </div>
+  
+              <div class="auth-form__form">
+                  <div class="auth-form__group">
+                    <input type="tel" class="auth-form__input" placeholder="Số điện thoại">
+                  </div>
+                  <div class="auth-form__group">
+                    <input type="password" class="auth-form__input" placeholder="Mật khẩu">
+                  </div>
+              </div>
+  
+              <div class="auth-form__help">
+                <a href="#" class="auth-form__help-link auth-form__help-forgot">Quên mật khẩu</a>
+                <span class="auth-form__help-separate"></span>
+                <a href="#" class="auth-form__help-link">Cần trợ giúp?</a>
+              </div>
+  
+              <div class="auth-form__controls">
+                  <button class="btn btn--back btn--normal">TRỞ LẠI</button>
+                  <button class="btn btn--primary"><a class="btn-login" href="./logged.html">ĐĂNG NHẬP</a></button>
+              </div>
+            </div>
+  
+            <div class="auth-form__socials">
+              <a href="#" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                <i class="auth-form__socials-icon fa-brands fa-square-facebook"></i>
+                <span class="auth-form__socials-title">Kết nối với Facebook</span>
+              </a>
+              <a href="#" class="auth-form__socials--google btn btn--with-icon">
+                <i class="auth-form__socials-icon fa-brands fa-google"></i>
+                <span class="auth-form__socials-title">Kết nối với Google</span>  
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
