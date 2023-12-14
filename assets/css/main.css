@@ -1301,3 +1301,176 @@
     text-decoration: none;
     color:var(--white-color);
 }
+
+.img__no-notice{
+    display: flex;
+    margin: 0 auto;
+}
+
+.auth-form__switch-btn a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.file-category{
+    padding: 16px;
+    background-color: #e8e8e8;
+}
+
+
+/* Account */
+.app__account{
+    padding: 36px 0 50px;
+}
+
+.file__heading{
+    display: flex;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+.account-details{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.file__img-account{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.account-name,
+.account-des{
+    font-size: 1.2rem;
+    margin: 0;
+}
+.file__img-account,
+.account-des:hover{
+    cursor: pointer;
+}
+
+.account-des i{
+    font-size: 1rem;
+    margin-right: 6px;
+}
+
+.file-nav{
+    margin-top: 12px;
+}
+
+.file-list{
+    list-style: none;
+    padding-left:20px ;
+}
+
+.file-item{
+    font-weight: 400;
+    font-size: 1.4rem;
+    padding: 8px 0;
+}
+
+.file-item i{
+    margin-right: 10px;
+}
+
+.file-item--no-icon{
+    margin-left: 24px;
+}
+
+.file-item--checked{
+    color: var(--primary-color);
+}
+
+.file-item:hover{
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+.profile{
+    padding: 10px 30px;
+    background-color: var(--white-color);
+}
+
+.profile__heading{
+    border-bottom: 1px solid #ccc;
+}
+
+.my-profile{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.profile-des{
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
+
+.profile__body{
+    padding: 16px 32px;
+}
+
+.user-name,
+.name-account,
+.email-account,
+.phone-account,
+.gender-account,
+.birthday-account{
+    margin-bottom: 14px;
+    font-size: 1.4rem;
+    margin-left: 40px;
+    display: flex;
+    color: #666;
+}
+
+.user-name__title,
+.name-account__title,
+.email-account__title,
+.phone-account__title,
+.gender-account__title,
+.birthday-account__title{
+    min-width: 90px;
+    text-align: right;
+}
+
+.user-name__proper{
+    color: var(--black-color);
+    margin-left: 20px;
+    font-size: 1.4rem;
+}
+
+.name-account__input,
+.email-account__input,
+.phone-account__input,
+.birthday-account__day
+{
+    padding: 4px 8px;
+    margin-left: 20px;
+    min-width: 400px;
+    border: 1px solid #ccc;
+}
+
+.gender-account__form{
+    min-width: 400px;
+    margin-left: 20px;
+    line-height: 42px;
+}
+
+.gender-account__form label{
+    margin-right: 8px;
+}
+
+.account-save{
+    border: none;
+    font-size: 1.6rem;
+    padding: 11px 31px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    margin-left: 150px;
+    border-radius: 2px;
+}
