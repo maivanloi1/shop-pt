@@ -1,21 +1,21 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-        <link rel="stylesheet" href="./assets/font/fontawesome-free-6.5.1-web/css/all.min.css">
-        <link rel="stylesheet" href="./assets/css/base.css">
-        <link rel="stylesheet" href="./assets/css/main.css">
-        <link rel="icon" href="./assets/img/logo.png">
-    </head>
-    <body>
-        <div class="app">
-            <!-- Header -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ Hàng</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.5.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="icon" href="./assets/img/logo.png">
+</head>
+<body>
+    <div class="app">
+        <!-- Header -->
         <header class="header">
             <div class="grid">
               <!-- Navbar -->
@@ -117,7 +117,7 @@
                             <a href="#">Địa chỉ của tôi</a>
                           </li>
                           <li class="header__navbar-user-item">
-                            <a href="./cart.html">Đơn mua</a>
+                            <a href="#">Đơn mua</a>
                           </li>
                           <li class="header__navbar-user-item header__navbar-user-item-separate">
                             <a href="./index.html">Đăng xuất</a>
@@ -325,172 +325,270 @@
                 </div>
               </div>
             </div>
-    
-            </header>
-    
-            <!-- Container -->
-            <div class="app__container">
-                <div class="grid">
-                    <div class="grid__row app__account">
-                        <div class="grid__column-2">
-                            <div class="file-category">
-                                <div class="file__heading">
-                                    <img src="https://scontent.fdad3-4.fna.fbcdn.net/v/t39.30808-6/348972045_931931494624608_8364622634729239647_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=ygGMp1wKu5cAX99fYbE&_nc_ht=scontent.fdad3-4.fna&oh=00_AfBNKoy_i4L1nuvbYSrRP-0pggjIu0Ff1buyhx-RADo5qw&oe=657BCABE" alt="" class="file__img-account">
-                                    <div class="account-details">
-                                        <h5 class="account-name">Lê Phước Tiên</h5>
-                                        <p class="account-des"><i class="fa-solid fa-pen"></i>Sửa hồ sơ</p>
-                                    </div>
-                                </div>
-                                <div class="file-nav">
-                                    <ul class="file-list">
-                                        <li class="file-item"><i class="fa-regular fa-user"></i>Tài khoản của tôi</li>
-                                        <li class="file-item file-item--no-icon file-item--checked">Hồ sơ</li>
-                                        <li class="file-item file-item--no-icon">Ngân hàng</li>
-                                        <li class="file-item file-item--no-icon">Địa chỉ</li>
-                                        <li class="file-item file-item--no-icon">Đổi mật khẩu</li>
-                                        <li class="file-item file-item--no-icon">Cài đặt thông báo</li>
-                                        <li class="file-item"><i class="fa-solid fa-money-bill"></i>Đơn mua</li>
-                                        <li class="file-item"><i class="fa-regular fa-bell"></i>Thông báo</li>
-                                        <li class="file-item"><i class="fa-solid fa-ticket"></i>Kho voucher</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+        </header>
 
-                        <div class="grid__column-10">
-                            <div class="profile">
-                                <div class="profile__heading">
-                                    <h3 class="my-profile">Hồ Sơ Của Tôi</h3>
-                                    <p class="profile-des">Quản lý thông tin hồ sơ để bảo mật tài khoản</p>
-                                </div>
-                                <div class="profile__body">
-                                    <div class="user-name">
-                                        <p class="user-name__title">Tên đăng nhập</p>
-                                        <p class="user-name__proper">lephuoctien2003</p>
-                                    </div>
-                                    <div class="name-account">
-                                        <p class="name-account__title">Tên</p>
-                                        <input type="text" class="name-account__input" value="Lê Phước Tiên">
-                                    </div>
-                                    <div class="email-account">
-                                        <p class="email-account__title">Email</p>
-                                        <input type="email" class="email-account__input" placeholder="Email (không bắt buộc)">
-                                    </div>
-                                    <div class="phone-account">
-                                        <p class="phone-account__title">Số điện thoại</p>
-                                        <input type="tel" class="phone-account__input" value="0329663642">
-                                    </div>
-                                    <div class="gender-account">
-                                        <p class="gender-account__title">Giới tính</p>
-                                        <form action="" class="gender-account__form">
-                                            <input type="radio" name="gender" class="gender-account__input" value="Nam" checked>
-                                            <label for="" class="male">Nam</label>
-                                            <input type="radio" name="gender" class="gender-account__input" value="Nữ">
-                                            <label for="" class="female">Nữ</label>
-                                            <input type="radio" name="gender" class="gender-account__input" value="Khác">
-                                            <label for="" class="other">Khác</label>
-                                        </form>
-                                    </div>
-                                    <div class="birthday-account">
-                                        <p class="birthday-account__title">Ngày sinh</p>
-                                        <input type="date" class="birthday-account__day">
-                                    </div>
-                                    <button class="account-save">Lưu</button>
-                                </div>
-                            </div>
+        <!-- Container -->
+        <div class="app">
+          <div class="grid">
+              <div class="body-cart">
+                  <!-- List product -->
+                  <div class="grid__row heading-cart">
+                    <div class="grid__column-1">
+                        <div class="product-choose">
+                            <input type="checkbox" class="choose__input-heading">
                         </div>
-                    </div>  
-                </div>
+                    </div>
+                    <div class="grid__column-3">
+                      <span class="title-product">Sản Phẩm</span>
+                    </div>
+                    <div class="grid__column-2">
+                      <span class="unit-price">Đơn giá</span>
+                    </div>
+                    <div class="grid__column-2">
+                      <span class="quantity-product">Số Lượng</span>
+                    </div>
+                    <div class="grid__column-2">
+                      <span class="bill-product">Thành Tiền</span>
+                    </div>
+                    <div class="grid__column-2">
+                      <span class="operation-product">Thao Tác</span>
+                    </div>
+                  </div>
+                  <div class="grid__row cart-product">
+                      <div class="grid__column-1">
+                          <div class="product-choose">
+                              <input type="checkbox" class="choose__input">
+                              <img src="./assets/img/titan.png" alt="" class="product-choose__img">
+                          </div>
+                      </div>
+                      <div class="grid__column-3 cart-product__info">
+                          <h3 class="cart-product__name">Điện thoại Apple iPhone 15 Pro Max 256GB</h3>
+                          <span class="cart-product__type">Màu: Natural Titanium</span>
+                      </div>
+                      <div class="grid__column-2">
+                          <div class="cart-product__price">
+                            <p class="cart-product__price-old">34.990.000đ</p>
+                            <p class="cart-product__price-new">32.990.000đ</p>
+                          </div>
+                      </div>
+                      <div class="grid__column-2">
+                          <div class="produdct-quantity">
+                            <i class="fa-solid fa-minus quantity-minus"></i>
+                            <input type="text" class="cart-product__input" value="1">
+                            <i class="fa-solid fa-plus quantity-plus"></i>
+                          </div>
+                      </div>
+                      <div class="grid__column-2">
+                          <div class="cart-product__bill">
+                              <span>32.990.000đ</span>
+                          </div>
+                      </div>
+                      <div class="grid__column-2">
+                          <div class="cart-product__controls">
+                              <p class="cart-product__delete">Xoá</p>
+                              <p class="cart-product__same">Tìm sản phẩm tương tự<i class="fa-solid fa-caret-down"></i></p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="grid__row cart-product">
+                      <div class="grid__column-1">
+                          <div class="product-choose">
+                              <input type="checkbox" class="choose__input">
+                              <img src="./assets/img/titan.png" alt="" class="product-choose__img">
+                          </div>
+                      </div>
+                      <div class="grid__column-3 cart-product__info">
+                          <h3 class="cart-product__name">Điện thoại Apple iPhone 15 Pro Max 256GB</h3>
+                          <span class="cart-product__type">Màu: Natural Titanium</span>
+                      </div>
+                      <div class="grid__column-2">
+                          <div class="cart-product__price">
+                            <p class="cart-product__price-old">34.990.000đ</p>
+                            <p class="cart-product__price-new">32.990.000đ</p>
+                          </div>
+                      </div>
+                      <div class="grid__column-2">
+                          <div class="produdct-quantity">
+                            <i class="fa-solid fa-minus quantity-minus"></i>
+                            <input type="text" class="cart-product__input" value="1">
+                            <i class="fa-solid fa-plus quantity-plus"></i>
+                          </div>
+                      </div>
+                      <div class="grid__column-2">
+                          <div class="cart-product__bill">
+                              <span>32.990.000đ</span>
+                          </div>
+                      </div>
+                      <div class="grid__column-2">
+                          <div class="cart-product__controls">
+                              <p class="cart-product__delete">Xoá</p>
+                              <p class="cart-product__same">Tìm sản phẩm tương tự<i class="fa-solid fa-caret-down"></i></p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="grid__row cart-product">
+                      <div class="grid__column-1">
+                          <div class="product-choose">
+                              <input type="checkbox" class="choose__input">
+                              <img src="./assets/img/titan.png" alt="" class="product-choose__img">
+                          </div>
+                      </div>
+                      <div class="grid__column-3 cart-product__info">
+                          <h3 class="cart-product__name">Điện thoại Apple iPhone 15 Pro Max 256GB</h3>
+                          <span class="cart-product__type">Màu: Natural Titanium</span>
+                      </div>
+                      <div class="grid__column-2">
+                          <div class="cart-product__price">
+                            <p class="cart-product__price-old">34.990.000đ</p>
+                            <p class="cart-product__price-new">32.990.000đ</p>
+                          </div>
+                      </div>
+                      <div class="grid__column-2">
+                          <div class="produdct-quantity">
+                            <i class="fa-solid fa-minus quantity-minus"></i>
+                            <input type="text" class="cart-product__input" value="1">
+                            <i class="fa-solid fa-plus quantity-plus"></i>
+                          </div>
+                      </div>
+                      <div class="grid__column-2">
+                          <div class="cart-product__bill">
+                              <span>32.990.000đ</span>
+                          </div>
+                      </div>
+                      <div class="grid__column-2">
+                          <div class="cart-product__controls">
+                              <p class="cart-product__delete">Xoá</p>
+                              <p class="cart-product__same">Tìm sản phẩm tương tự<i class="fa-solid fa-caret-down"></i></p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="grid__row cart-product">
+                      <div class="grid__column-1">
+                          <div class="product-choose">
+                              <input type="checkbox" class="choose__input">
+                              <img src="./assets/img/titan.png" alt="" class="product-choose__img">
+                          </div>
+                      </div>
+                      <div class="grid__column-3 cart-product__info">
+                          <h3 class="cart-product__name">Điện thoại Apple iPhone 15 Pro Max 256GB</h3>
+                          <span class="cart-product__type">Màu: Natural Titanium</span>
+                      </div>
+                      <div class="grid__column-2">
+                          <div class="cart-product__price">
+                            <p class="cart-product__price-old">34.990.000đ</p>
+                            <p class="cart-product__price-new">32.990.000đ</p>
+                          </div>
+                      </div>
+                      <div class="grid__column-2">
+                          <div class="produdct-quantity">
+                            <i class="fa-solid fa-minus quantity-minus"></i>
+                            <input type="text" class="cart-product__input" value="1">
+                            <i class="fa-solid fa-plus quantity-plus"></i>
+                          </div>
+                      </div>
+                      <div class="grid__column-2">
+                          <div class="cart-product__bill">
+                              <span>32.990.000đ</span>
+                          </div>
+                      </div>
+                      <div class="grid__column-2">
+                          <div class="cart-product__controls">
+                              <p class="cart-product__delete">Xoá</p>
+                              <p class="cart-product__same">Tìm sản phẩm tương tự<i class="fa-solid fa-caret-down"></i></p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="grid">
+              <div class="grid__row">
+                  <div class="grid__column-2-4">
+                    <h3 class="footer__heading">CHĂM SÓC KHÁCH HÀNG</h3>
+                    <ul class="footer-list">
+                      <li class="footer-item">
+                        <a href="#" class="footer-item__link">Trung tâm trợ giúp</a>
+                      </li>
+                      <li class="footer-item">
+                        <a href="#" class="footer-item__link">Tickid Mall</a>
+                      </li>
+                      <li class="footer-item">
+                        <a href="#" class="footer-item__link">Hướng dẫn mua hàng</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="grid__column-2-4">
+                    <h3 class="footer__heading">GIỚI THIỆU</h3>
+                    <ul class="footer-list">
+                      <li class="footer-item">
+                        <a href="#" class="footer-item__link">Giới thiệu</a>
+                      </li>
+                      <li class="footer-item">
+                        <a href="#" class="footer-item__link">Tuyển dụng</a>
+                      </li>
+                      <li class="footer-item">
+                        <a href="#" class="footer-item__link">Điều khoản</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="grid__column-2-4">
+                    <h3 class="footer__heading">THEO DÕI</h3>
+                    <ul class="footer-list">
+                      <li class="footer-item">
+                        <a href="#" class="footer-item__link">Trung tâm trợ giúp</a>
+                      </li>
+                      <li class="footer-item">
+                        <a href="#" class="footer-item__link">Tickid Mall</a>
+                      </li>
+                      <li class="footer-item">
+                        <a href="#" class="footer-item__link">Hướng dẫn mua hàng</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="grid__column-2-4">
+                    <h3 class="footer__heading">DANH MỤC</h3>
+                    <ul class="footer-list">
+                      <li class="footer-item">
+                        <i class="footer-item__link-icon fa-brands fa-facebook"></i>
+                        <a href="#" class="footer-item__link">Facebook</a>
+                      </li>
+                      <li class="footer-item">
+                        <i class="footer-item__link-icon fa-brands fa-instagram"></i>
+                        <a href="#" class="footer-item__link">Instagram</a>
+                      </li>
+                      <li class="footer-item">
+                        <i class="footer-item__link-icon fa-brands fa-linkedin"></i>
+                        <a href="#" class="footer-item__link">Linkedin</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="grid__column-2-4">
+                    <h3 class="footer__heading">VÀO CỬA HÀNG TRÊN ỨNG DỤNG</h3>
+                    <ul class="footer-list">
+                      <div class="footer__download">
+                        <img src="./assets/img/qr_code.png" alt="Download QR" class="footer__download-qr">
+                        <div class="footer__download-apps">
+                          <a href="#" class="footer__download-app-link">
+                            <img src="./assets/img/apple_store.png" alt="App Store" class="footer__download-app-img">
+                          </a>
+                          <a href="#" class="footer__download-app-link">
+                            <img src="./assets/img/google_play.png" alt="Google Play" class="footer__download-app-img">
+                          </a>
+                        </div>
+                      </div>
+                    </ul>
+                  </div>
+              </div>
             </div>
     
-            <!-- Footer -->
-            <footer class="footer">
-                <div class="grid">
-                  <div class="grid__row">
-                      <div class="grid__column-2-4">
-                        <h3 class="footer__heading">CHĂM SÓC KHÁCH HÀNG</h3>
-                        <ul class="footer-list">
-                          <li class="footer-item">
-                            <a href="#" class="footer-item__link">Trung tâm trợ giúp</a>
-                          </li>
-                          <li class="footer-item">
-                            <a href="#" class="footer-item__link">Tickid Mall</a>
-                          </li>
-                          <li class="footer-item">
-                            <a href="#" class="footer-item__link">Hướng dẫn mua hàng</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="grid__column-2-4">
-                        <h3 class="footer__heading">GIỚI THIỆU</h3>
-                        <ul class="footer-list">
-                          <li class="footer-item">
-                            <a href="#" class="footer-item__link">Giới thiệu</a>
-                          </li>
-                          <li class="footer-item">
-                            <a href="#" class="footer-item__link">Tuyển dụng</a>
-                          </li>
-                          <li class="footer-item">
-                            <a href="#" class="footer-item__link">Điều khoản</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="grid__column-2-4">
-                        <h3 class="footer__heading">THEO DÕI</h3>
-                        <ul class="footer-list">
-                          <li class="footer-item">
-                            <a href="#" class="footer-item__link">Trung tâm trợ giúp</a>
-                          </li>
-                          <li class="footer-item">
-                            <a href="#" class="footer-item__link">Tickid Mall</a>
-                          </li>
-                          <li class="footer-item">
-                            <a href="#" class="footer-item__link">Hướng dẫn mua hàng</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="grid__column-2-4">
-                        <h3 class="footer__heading">DANH MỤC</h3>
-                        <ul class="footer-list">
-                          <li class="footer-item">
-                            <i class="footer-item__link-icon fa-brands fa-facebook"></i>
-                            <a href="#" class="footer-item__link">Facebook</a>
-                          </li>
-                          <li class="footer-item">
-                            <i class="footer-item__link-icon fa-brands fa-instagram"></i>
-                            <a href="#" class="footer-item__link">Instagram</a>
-                          </li>
-                          <li class="footer-item">
-                            <i class="footer-item__link-icon fa-brands fa-linkedin"></i>
-                            <a href="#" class="footer-item__link">Linkedin</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="grid__column-2-4">
-                        <h3 class="footer__heading">VÀO CỬA HÀNG TRÊN ỨNG DỤNG</h3>
-                        <ul class="footer-list">
-                          <div class="footer__download">
-                            <img src="./assets/img/qr_code.png" alt="Download QR" class="footer__download-qr">
-                            <div class="footer__download-apps">
-                              <a href="#" class="footer__download-app-link">
-                                <img src="./assets/img/apple_store.png" alt="App Store" class="footer__download-app-img">
-                              </a>
-                              <a href="#" class="footer__download-app-link">
-                                <img src="./assets/img/google_play.png" alt="Google Play" class="footer__download-app-img">
-                              </a>
-                            </div>
-                          </div>
-                        </ul>
-                      </div>
-                  </div>
-                </div>
-        
-                <div class="footer__bottom">
-                  <div class="grid">
-                    <p class="footer__text">2023 - Bản quyền thuộc về công ty VLOI03</p>
-                  </div>
-                </div>
-            </footer>
-        </div>
-    </body>
-    </html>
+            <div class="footer__bottom">
+              <div class="grid">
+                <p class="footer__text">2023 - Bản quyền thuộc về công ty VLOI03</p>
+              </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
